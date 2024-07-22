@@ -21,10 +21,14 @@ jobs:
         run: pip install requests cairosvg
 
       - name: Generate Quote
-        run: python generate_quote.py
+        run: |
+          python generate_quote.py
+          cat quote.svg
 
       - name: Generate Time
-        run: python generate_time.py
+        run: |
+          python generate_time.py
+          cat time.svg
 
       - name: Commit and Push Changes
         run: |
