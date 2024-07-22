@@ -7,9 +7,9 @@ current_time = now.strftime("%Y-%m-%d %H:%M:%S")
 
 # Create SVG content
 svg_content = f'''
-<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#000"/>
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#fff" font-family="Arial" font-size="20">{current_time}</text>
+<svg width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#282c34"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20">{current_time}</text>
 </svg>
 '''
 

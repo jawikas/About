@@ -1,9 +1,9 @@
-# Hello, I'm jawikas 👋
+# Hello, I'm [Your Name] 👋
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=jawikas&show_icons=true&theme=radical)
 
 ## Quote of the day
-![Quote](https://github.com/jawikas/About/blob/main/quote.svg)
+![Quote](quote.svg)
 
 ## Current Time
-![Time](https://github.com/jawikas/About/blob/main/time.svg)
+![Time](time.svg)

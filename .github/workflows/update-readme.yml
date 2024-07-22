@@ -15,20 +15,16 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.x
+          python-version: '3.x'
 
       - name: Install Dependencies
         run: pip install requests cairosvg
 
       - name: Generate Quote
-        run: |
-          python generate_quote.py
-          cat quote.svg
+        run: python scripts/generate_quote.py
 
       - name: Generate Time
-        run: |
-          python generate_time.py
-          cat time.svg
+        run: python scripts/generate_time.py
 
       - name: Commit and Push Changes
         run: |
