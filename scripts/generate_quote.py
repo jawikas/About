@@ -8,11 +8,12 @@ if response.status_code == 200:
     quote = data['content']
     author = data['author']
 
-    # Create SVG content
+    # Create SVG content with a nicer design
     svg_content = f'''
-    <svg width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+    <svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
       <rect width="100%" height="100%" fill="#282c34"/>
-      <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20">{quote} - {author}</text>
+      <text x="50%" y="40%" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold">{quote}</text>
+      <text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="16" font-style="italic">- {author}</text>
     </svg>
     '''
 

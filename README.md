@@ -1,4 +1,4 @@
-# Hello, I'm [Your Name] 👋
+# Hello, I'm jawikas 👋
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=jawikas&show_icons=true&theme=radical)
 
